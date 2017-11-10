@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 /***********************************************************************************
-功能：动态链表的建立和遍历
+功能：统计不同字符的数量
 作者：Side
 时间：2017/11/10
 ***********************************************************************************/
@@ -18,9 +18,7 @@ int main(int argc, char const *argv[])
 {
 	char temp;
 
-	//count = {0,0,0,0,0};
 	while((temp = getchar()) != EOF){
-		//cout << temp;
 		if (('a' <= temp) && (temp <= 'z'))
 			count.small++;
 		else if(('A' <= temp) && (temp <= 'Z'))
